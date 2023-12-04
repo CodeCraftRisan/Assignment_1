@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Book Store',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Color.fromARGB(255, 33, 229, 243),
       ),
       home: BookListPage(),
     );
@@ -25,7 +25,7 @@ class BookListPage extends StatelessWidget {
         title: Container(
           padding: EdgeInsets.symmetric(horizontal: 12.0, vertical: 8.0),
           decoration: BoxDecoration(
-            color: Colors.green,
+            color: const Color.fromARGB(255, 157, 175, 76),
             borderRadius: BorderRadius.circular(8.0),
           ),
           child: Text(
