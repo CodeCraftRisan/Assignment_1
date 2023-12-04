@@ -217,7 +217,7 @@ class BuyNowPage extends StatelessWidget {
               ),
               style: ElevatedButton.styleFrom(
                 backgroundColor:
-                    Colors.red, // Change this color to your preference
+                    Colors.red, // Change this color as your preference
               ),
             ),
           ],
